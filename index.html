@@ -574,8 +574,8 @@ var CONFIG = {
   
   images: {
     // --- Top of the page ---
-    hero:    "images/portrait.jpg",       // BIG photo on the home screen (full screen at the top)
-    about:   "images/portrait.jpg",       // photo next to the "About Sylvia" text
+    hero:    "customized_set-removebg-preview (1).png",       // BIG photo on the home screen (full screen at the top)
+    about:   "IMG-20261119-WA0161-removebg-preview.png",       // photo next to the "About Sylvia" text
 
     // --- Lash styles shop: one photo per style card ---
     classic: "images/finished-set.jpg",   // Classic Full Set card
@@ -583,29 +583,29 @@ var CONFIG = {
     volume:  "images/applying.jpg",       // Volume Full Set card
     mega:    "images/portrait.jpg",       // Mega Volume Set card
     wispy:   "images/finished-set.jpg",   // Wispy Cluster Set card
-    strip:   "images/cluster-strip.jpg",  // Cluster Strip Lash card
+    Layerset:   "layered_set-removebg-preview (1).png",  // Cluster Strip Lash card
     refill:  "images/applying.jpg",       // Refill / Infill card
     removal: "images/applying.jpg",       // Lash Removal card
 
     // --- Pink training section ---
-    train1:  "images/portrait.jpg",       // LARGE photo on the right
-    train2:  "images/applying.jpg",       // small photo 1 under it
-    train3:  "images/cluster-strip.jpg",  // small photo 2
-    train4:  "images/finished-set.jpg",   // small photo 3
+    train1:  "IMG-20261119-WA0053.jpg",       // LARGE photo on the right
+    train2:  "fishing.jpg",       // small photo 1 under it
+    train3:  "tray.jpg",  // small photo 2
+    train4:  "applying lashes.jpg",   // small photo 3
 
     // --- "Course outline" 4 photo tiles (Mapping, Placement, Products, Finish) ---
-    tile1:   "images/portrait.jpg",       // Mapping / Perfection
-    tile2:   "images/applying.jpg",       // Placement / Precision
-    tile3:   "images/cluster-strip.jpg",  // Products / Performance
-    tile4:   "images/finished-set.jpg",   // Finish / Professional
+    tile1:   "Mapping.jpg",       // Mapping / Perfection
+    tile2:   "Tweezers.jpg",       // Placement / Precision
+    tile3:   "product.jpg",  // Products / Performance
+    tile4:   "finish.jpg",   // Finish / Professional
 
     // --- Training bundles cards ---
-    bundle1: "images/applying.jpg",       // Physical Class card
-    bundle2: "images/cluster-strip.jpg",  // Physical Class with Products card
+    bundle1: "hands-on.jpg",       // Physical Class card
+    bundle2: "kits.jpg",  // Physical Class with Products card
     bundle3: "phone",                     // Online Class card ("phone" = drawn phone picture; or type a photo name)
 
     // --- Bottom of the page ---
-    reserve: "images/finished-set.jpg"    // photo behind "Reserve your lash experience"
+    reserve: "fishing.jpg"    // photo behind "Reserve your lash experience"
   },
 
   brand: "Lashes by Sylvia",
@@ -640,15 +640,17 @@ var CONFIG = {
   // LASH STYLES. !!! These prices are SAMPLES. Change them to your real prices. !!!
   // cat = the filter group. img = a key from "images" above.
   styles: [
-    { id: "classic", name: "Classic Full Set",  cat: "Full sets", price: 15000, img: "classic", desc: "One extension per natural lash for a clean, natural, mascara look." },
-    { id: "hybrid",  name: "Hybrid Full Set",   cat: "Full sets", price: 20000, img: "hybrid",  desc: "A blend of classic and fan lashes for soft texture and extra fullness." },
-    { id: "volume",  name: "Volume Full Set",   cat: "Full sets", price: 25000, img: "volume",  desc: "Light handmade fans for a fuller, fluffier, more dramatic finish." },
-    { id: "mega",    name: "Mega Volume Set",   cat: "Full sets", price: 30000, img: "mega",    desc: "Ultra-fine fans packed tight for the darkest, boldest look." },
-    { id: "wispy",   name: "Wispy Cluster Set", cat: "Cluster",   price: 18000, img: "wispy",   desc: "Cluster lashes with a feathered, wispy pattern that lifts the eye." },
-    { id: "strip",   name: "Cluster Strip Lash",cat: "Cluster",   price: 12000, img: "strip",   desc: "Quick and light cluster strip application, easy to wear and remove." },
-    { id: "refill",  name: "Refill / Infill",   cat: "Extras",    price: 10000, img: "refill",  desc: "Keep your set full. Replace shed lashes to extend retention." },
-    { id: "removal", name: "Lash Removal",      cat: "Extras",    price: 5000,  img: "removal", desc: "Safe, gentle removal of your current set." }
-  ],
+  { id: "classic",   name: "Classic Set",                  cat: "Cluster", price: 6000,  img: "classic",   desc: "10D-50D clusters." },
+  { id: "wispybot",  name: "Wispy Hybrid with Bottoms",    cat: "Cluster", price: 14000, img: "wispybot",  desc: "Spikes, 80D - 100D clusters with bottom lashes to define the eyes." },
+  { id: "wispyvolb", name: "Wispy Volume with Bottom Lashes",cat: "Cluster", price: 16000, img: "wispyvolb", desc: "Spikes, 200D clusters with bottom lashes to define the eyes." },
+  { id: "wispyv160", name: "Wispy Volume",                 cat: "Cluster", price: 13000, img: "wispyv160", desc: "Soft spikes and 160D clusters." },
+  { id: "wispy",     name: "Wispy Set",                    cat: "Cluster", price: 10000, img: "wispy",     desc: "Spikes and short clusters." },
+  { id: "anime",     name: "Anime Set with Bottoms",       cat: "Cluster", price: 15000, img: "anime",     desc: "Bold triangular spikes with 80D clusters." },
+  { id: "custom",    name: "Customized Set",               cat: "Cluster", price: 15000, img: "custom",    desc: "Curated for your eye shape." },
+  { id: "wispyv200", name: "Wispy Volume",                 cat: "Cluster", price: 13000, img: "wispyv200", desc: "Soft spikes and 200D clusters." },
+  { id: "layered",   name: "Layered Set",                  cat: "Cluster", price: 19000, img: "layered_set-removebg-preview (1).png",   desc: "Soft spikes, 300D clusters in layers with bottom lashes." },
+  { id: "hybridce",  name: "Hybrid Cat Eye",               cat: "Cluster", price: 8000,  img: "hybridce",  desc: "80D - 100D clusters." }
+],
 
   // TRAINING (the pink flyer section)
   training: {
